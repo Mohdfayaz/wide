@@ -193,3 +193,263 @@ nav ul li a {
   color: #888;
   font-style: italic;
 }
+.integrations {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.integrations h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.integration-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logo-row img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.logo-row img:hover {
+  transform: scale(1.1);
+}
+
+.testimonials {
+  padding: 80px 20px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  text-align: left;
+  position: relative;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #444;
+}
+
+.author {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #111;
+}
+
+.author span {
+  font-weight: normal;
+  color: #555;
+}
+
+.video-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.video-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.play-btn {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.pricing {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.pricing h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.pricing-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 30px;
+  width: 280px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-card.best {
+  background: #0066ff;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.pricing-card.best .price,
+.pricing-card.best a,
+.pricing-card.best ul li {
+  color: #fff;
+}
+
+.pricing-card h3 {
+  margin-bottom: 5px;
+}
+
+.pricing-card .desc {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.pricing-card .price {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pricing-card .price span {
+  font-size: 16px;
+  color: #888;
+}
+
+.pricing-card.best .price span {
+  color: #fff;
+}
+
+.pricing-card .highlight {
+  font-size: 14px;
+  font-weight: 500;
+  color: yellow;
+  margin-bottom: 15px;
+}
+
+.pricing-card button {
+  background: #0066ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pricing-card.best button {
+  background: white;
+  color: #0066ff;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.pricing-card ul li {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.pricing-card a {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #0066ff;
+}
+
+.footer {
+  padding: 60px 20px;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-text p {
+  color: #555;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 8px 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  font-size: 24px;
+}
