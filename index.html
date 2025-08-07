@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChronoTask</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h3>hello fayaz</h3>
+  <header>
+    <div class="logo">🔵 ChronoTask</div>
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+    <div class="actions">
+      <button class="sign-in">Sign in</button>
+      <button class="get-demo" onclick="showAlert()">Get demo</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="floating-card left">📌 Take notes to keep track of crucial details, and accomplish more tasks with ease.</div>
+    
+    <div class="main-content">
+      <div class="logo-icon">⬜</div>
+      <h1><span>Think, plan, and track</span><br><strong>all in one place</strong></h1>
+      <p>Efficiently manage your tasks and boost productivity.</p>
+      <button class="demo-btn" onclick="showAlert()">Get free demo</button>
+    </div>
+    
+    <div class="floating-card right">⏰ Reminder: Meeting at 13:00 – 13:45</div>
+  </section>
+<section class="solutions">
+  <div class="label">Solutions</div>
+  <h2>Solve your team’s<br><strong>biggest challenges</strong></h2>
+  <div class="solutions-grid">
+    <div class="solution-card">
+      <h4>🔗 Team Alignment</h4>
+      <p>Ensure your team stays on the same page with seamless sharing and transparency.</p>
+    </div>
+    <div class="solution-card">
+      <h4>🎯 Focus on Priorities</h4>
+      <p>Prioritize and manage tasks efficiently so your team can focus on what matters most.</p>
+    </div>
+    <div class="solution-card">
+      <h4>✅ Accountability</h4>
+      <p>Hold everyone accountable without the need for constant check-ins.</p>
+    </div>
+  </div>
+  <div class="dashboard-image">
+    <img src="perview.png" alt="Dashboard Preview" />
+  </div>
+</section>
+
+<section class="features">
+  <div class="label">Features</div>
+  <h2>Keep everything in one place</h2>
+  <p>Forget complex project management tools.</p>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <h4>🤝 Seamless Collaboration</h4>
+      <p>Work together with your team effortlessly, share tasks, and double progress in real-time.</p>
+    </div>
+    <div class="feature-card">
+      <h4>⏱️ Time Management Tools</h4>
+      <p>Optimize your time with intelligent tools like timers, reminders, and schedules.</p>
+    </div>
+    <div class="feature-card">
+      <h4>📈 Advanced Task Tracking</h4>
+      <p>Stay ahead of your entire backlog with ease and track productivity effectively.</p>
+    </div>
+    <div class="feature-card">
+      <h4>🧩 Customizable Workspaces</h4>
+      <p>Create workflows, widgets, and timelines to suit your team's exact needs.</p>
+    </div>
+  </div>
+  <p class="more-features">…and a lot more features.</p>
+</section>
+  <script src="main.js"></script>
 </body>
 </html>
