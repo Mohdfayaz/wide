@@ -1,10 +1,10 @@
 function showAlert() {
-  alert("Demo request submitted!");
+  alert("Demo request submitted Successfully!");
 }
 function toggleMenu() {
   const nav = document.getElementById("navLinks");
   nav.classList.toggle("show");
 }
 function playVideo() {
-  alert("Playing video review… (embed your video modal or link here)");
+  alert("Thank You for view the video!! Your video is playing!");
 }
